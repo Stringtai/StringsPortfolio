@@ -73,28 +73,155 @@
         line-height: 1.3;
         color: white;
     }
+    .references-content p {
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 1.3;
+        color: red;
+    }
     
     .Python-Videos {
         display: flex;
+        flex-direction: column;
         justify-content: center;
-        align-items: left;
+        align-items: center;
         text-align: center;
-        height: calc(30vh - 60px);
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .Python-videos-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px; 
+    }
+
+    .video1-text, .video2-text, .video3-text {
+        display: block;  
+        text-align: center;
+        font-size: 2rem;
+        color: cyan;
+        padding: 10px 0;
+        background-color: transparent; 
+        transition: background-color 0.3s ease-in-out; 
+    }
+
+    .video1-text:hover, .video2-text:hover, .video3-text:hover {
+        background-color: #252222; 
+    }
+
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        border: none;
+        outline: none;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    html {
+        font-size: 62.5%;
+    }
+
+    body {
+        width: 100%;
+        height: 100vh;
+        overflow-x: hidden;
+        background-color: black;
+        color: white;
+    }
+
+    header {
+        margin-top: 20px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 1rem 9%;
+        background-color: transparent;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 100;
+    }
+
+    nav a {
+        font-size: 1.8rem;
+        color: white;
+        margin-left: 4rem;
+        font-weight: 500;
+        transition: 0.3s ease;
+        border-bottom: 3px solid transparent;
+    }
+
+    nav a:hover,
+    nav a.active {
+        color: #10a2c6;
+        border-bottom: 3px solid #10a2c6;
+    }
+
+
+    .References {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: calc(25vh - 60px);
         background-color: black;
         padding-top: 20px; 
     }
-    .video1-text {
-        height: calc(25vh - 20px);
-        background-color: #000000;
-        padding-top: 30px; 
+
+
+    .references-content {
+        max-width: 80%;
+    }
+
+    .references-content h1 {
+        font-size: 4rem;
+        font-weight: 700;
+        line-height: 1.3;
+        color: white;
+    }
+    .references-content p {
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 1.3;
+        color: red;
+    }
+    
+    .Python-Videos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .Python-videos-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px; 
+    }
+
+    .video1-text, .video2-text, .video3-text {
+        display: block;  
+        text-align: center;
         font-size: 2rem;
         color: cyan;
+        padding: 10px 0;
+        background-color: transparent; 
+        transition: background-color 0.3s ease-in-out; 
     }
-    .video2-text {
-        height: calc(40vh - 20px);
-        background-color: #000000;
-        padding-top: 20px; 
-        font-size: 2rem;
-        color: cyan;
+
+    .video1-text:hover, .video2-text:hover, .video3-text:hover {
+        background-color: #252222; 
     }
+
     
