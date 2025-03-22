@@ -210,7 +210,7 @@
         gap: 10px; 
     }
 
-    .video1-text, .video2-text, .video3-text {
+    .video1-text, .video2-text, .video3-text, .video4-text {
         display: block;  
         text-align: center;
         font-size: 2rem;
@@ -220,7 +220,7 @@
         transition: background-color 0.3s ease-in-out; 
     }
 
-    .video1-text:hover, .video2-text:hover, .video3-text:hover {
+    .video1-text:hover, .video2-text:hover, .video3-text:hover, .video4-text:hover {
         background-color: #252222; 
     }
 
